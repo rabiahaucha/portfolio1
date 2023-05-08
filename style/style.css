@@ -1,0 +1,26 @@
+.container-fluid {
+  background-color: #d051c1;
+  
+  
+}
+
+body {
+  background-color: black !important;
+  min-height: 100vh;
+}
+
+.navbar {
+  --bs-navbar-padding-y: 0 !important;
+}
+.heading {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* text-align: center; */
+  height: 3rem;
+  background-color: white;
+}
+a:hover {
+    background-color: lightcoral;
+  }
+
