@@ -6,7 +6,7 @@
 
 body {
   background-color: black !important;
-  min-height: 100vh;
+ height: 50vh;
 }
 
 .navbar {
@@ -17,10 +17,127 @@ body {
   /* justify-content: center; */
   align-items: center;
   /* text-align: center; */
-  height: 3rem;
-  background-color: white;
+  background-color: black;
+  color:darkmagenta;
 }
 a:hover {
     background-color: lightcoral;
   }
 
+  .img{
+    position: relative;
+    /* bottom: 54rem;
+    left: 31rem; */
+  }
+
+  .image{
+    height: 50rem;
+  }
+
+  .imag{
+    width: 100%;
+    height: 100%;
+  }
+  .foot{
+    color: #d051c1;
+    text-align: center;
+  }
+
+
+.thefooter{
+    float:right;
+    width:100%;
+    background: #000;
+}
+ul{
+    margin: 0 130px;
+    
+}
+li{
+    list-style-type:none;
+    float:right;
+    line-height:32px;
+}
+h3{
+    font-weight:bold;
+    text-decoration: underline;
+    margin-bottom:15px;
+    margin-top:29px;
+}
+li a{
+    text-decoration: none;
+    color:white;
+    margin-bottom:20px;
+}
+.Navigationto{
+    display:flex;
+    float:right;
+    display:inline-block;
+}
+.Navigationto li a{
+    display:flex;
+}
+.connectto{
+    display:flex;
+    float:right;
+}
+.connectto li a{
+    display:flex;
+}
+ul li a:hover{
+    color: #d051c1;
+    color:white;
+}
+.theaccount{
+    display:flex;
+    float:right;
+}
+.theaccount li a{
+    display:flex;
+}
+
+.copyright{
+  color: #d051c1 !important;
+}
+
+footer ul li{
+  margin: 10px;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
