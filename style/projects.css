@@ -22,6 +22,7 @@
   }
   a:hover {
       background-color: lightcoral;
+      border-radius:999999px;
     }
   
     .img{
@@ -141,3 +142,25 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .card1{
+    background-color:purple;
+  }
+  .card2{
+    background-color:lightslategrey;
+  }
+  .card3{
+    background-color:lightblue;
+  }
+ .pro{
+  text-align: center;
+  color:white;
+ }
+ .row .col .card1 .card-body .btn:hover{
+  background-color: #d051c1;
+ }
+ .row .col .card2 .card-body .btn:hover{
+  background-color: #d051c1;
+ }
+ .row .col .card3 .card-body .btn:hover{
+  background-color: #d051c1;
+ }
