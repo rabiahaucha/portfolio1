@@ -24,6 +24,7 @@
       background-color: lightcoral;
       border-radius:999999px;
     }
+
   
     .img{
       position: relative;
@@ -187,3 +188,7 @@ input[type=submit]:hover{
 p{
     text-align: center;
 }
+.pro{
+  text-align: center;
+  color:#d051c1;
+ }

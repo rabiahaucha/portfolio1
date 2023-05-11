@@ -148,12 +148,29 @@
     margin: auto;
   
   }
+
+  .thefront{
+    background-color:black;
+  }
   h1{
     text-align: center;
   }
   h3{
     text-align: center;
   }
+  .edu{
+    color: #d051c1;
+  }
+.hig{
+  color: #d051c1;
+}
+.right-side{
+  color: #d051c1;
+}
+.pro{
+  text-align: center;
+  color:white;
+ }
 
 
   

@@ -145,6 +145,19 @@
 
   .ppa{
     border: 3px solid white;
+    margin-top: 2rem;
+  }
+  .me{
+    margin-top: 2rem;
+ margin-bottom: 2rem;
+  }
+  .sub-title{
+    margin-top: 7rem;
+    color:#d051c1;
+    margin-right:7rem
+  }
+  .rrh{
+    margin-right: 7rem;
   }
 
   
