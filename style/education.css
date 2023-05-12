@@ -1,24 +1,27 @@
 .container-fluid {
     background-color: #d051c1;
-    
-    
   }
+
   
   body {
     background-color: black !important;
    height: 50vh;
+   overflow-x: hidden;
   }
   
   .navbar {
     --bs-navbar-padding-y: 0 !important;
   }
-  .heading {
+  /* .heading {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
-    /* text-align: center; */
+    text-align: center;
     background-color: black;
-    color:darkmagenta;
+    color:white;
+  } */
+  div ul li a{
+    transition: all 0.5s ease 0s !important;
   }
   a:hover {
       background-color: lightcoral;
@@ -157,20 +160,46 @@
   }
   h3{
     text-align: center;
+    /* margin-right: 12rem; */
   }
+  /* #para {
+  margin-left: 200px !important;
+  } */
   .edu{
     color: #d051c1;
+    margin-left: 3rem;
   }
-.hig{
-  color: #d051c1;
+.col{
+  color: white;
+ 
+ 
 }
-.right-side{
-  color: #d051c1;
+.col h1{
+  color: #d051c1 !important;
+;
 }
 .pro{
   text-align: center;
   color:white;
  }
+.education .col{
+  margin-right: 20rem;
+}
+.education .col .year{
+  margin-left: 20rem;
+}
+
+@media  screen and (max-width: 300px){
+  
+.education .col .year{
+  margin-left: 0rem;
+}
+}
+
+.navbar-brand{
+  text-decoration: none;
+}
+
 
 
   

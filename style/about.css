@@ -12,13 +12,16 @@
   .navbar {
     --bs-navbar-padding-y: 0 !important;
   }
-  .heading {
+  /* .heading {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
-    /* text-align: center; */
+    text-align: center;
     background-color: black;
-    color:darkmagenta;
+    color:white;
+  } */
+  div ul li a{
+    transition: all 0.5s ease 0s !important;
   }
   a:hover {
       background-color: lightcoral;
@@ -105,6 +108,11 @@
     margin: 10px;
   }
   
+  .stuff ul{
+    text-align: center;
+    /* display: inline-block;
+    justify-content: start; */
+  }
   
   .container {
     position: relative;
@@ -154,10 +162,41 @@
   .sub-title{
     margin-top: 7rem;
     color:#d051c1;
-    margin-right:7rem
+    margin-right:7rem;
+   padding-right: 7rem;
   }
   .rrh{
-    margin-right: 7rem;
+    margin-right:7rem;
+   padding-right: 7rem;
+    
+
   }
+  @media screen and (max-width:700px){
+    .rrh{
+      /* margin-left: 8rem; */
+      margin: 0 auto;
+ padding: 2rem;
+ 
+  
+ 
+    }
+ 
+    }
+    .sub-title{
+      padding: 2rem;
+      margin-left: 8rem;
+      margin: 0 auto;
+  
+  
+      /* margin-bottom: 8rem;  */
+    }
+    
+  .me{
+    width: 70%;
+  }
+ .navbar-brand{
+    text-decoration: none;
+  }
+
 
   

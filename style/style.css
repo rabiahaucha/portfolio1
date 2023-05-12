@@ -1,7 +1,10 @@
-.container-fluid {
+.navcont {
   background-color: #d051c1;
   
-  
+}
+
+.imgcont{
+  --bs-gutter-x: 0rem !important;
 }
 
 body {
@@ -12,13 +15,16 @@ body {
 .navbar {
   --bs-navbar-padding-y: 0 !important;
 }
-.heading {
+/* .heading {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
-  /* text-align: center; */
+  text-align: center;
   background-color: black;
-  color:darkmagenta;
+  color:white;
+} */
+div ul li a{
+  transition: all 0.5s ease 0s !important;
 }
 a:hover {
     background-color: lightcoral;
@@ -36,8 +42,9 @@ a:hover {
   }
 
   .imag{
+    background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 100vh;
   }
   .foot{
     color: #d051c1;
@@ -143,5 +150,19 @@ footer ul li{
   transform: translate(-50%, -50%);
 }
 .dig{
-  color:#d051c1;
+  color:white;
 }
+.wel{
+  color: #000;
+}
+
+h4 {
+  background-color: black;
+  color: white!important;
+}
+.navbar-brand{
+  text-decoration: none;
+}
+
+
+

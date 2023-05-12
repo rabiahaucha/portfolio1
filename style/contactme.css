@@ -3,6 +3,15 @@
     
     
   }
+
+  form input{
+    background-color: grey;
+  }
+  
+  #subject {
+    background-color: grey;
+
+  }
   
   body {
     background-color: black !important;
@@ -12,13 +21,16 @@
   .navbar {
     --bs-navbar-padding-y: 0 !important;
   }
-  .heading {
+  /* .heading {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
-    /* text-align: center; */
+    text-align: center;
     background-color: black;
-    color:darkmagenta;
+    color:white;
+  } */
+  div ul li a{
+    transition: all 0.5s ease 0s !important;
   }
   a:hover {
       background-color: lightcoral;
@@ -192,3 +204,13 @@ p{
   text-align: center;
   color:#d051c1;
  }
+
+ .target::placeholder{
+  color: black;
+ }
+ #subject{
+  background-color: white;
+ }
+ .navbar-brand{
+  text-decoration: none;
+}

@@ -6,30 +6,33 @@
 
 body {
   background-color: black !important;
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .navbar {
   --bs-navbar-padding-y: 0 !important;
 }
-.heading {
+/* .heading {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
-  /* text-align: center; */
+  text-align: center;
   background-color: black;
-  color:darkmagenta;
+  color:white;
+} */
+div ul li a{
+  transition: all 0.5s ease 0s !important;
 }
 a:hover {
     background-color: lightcoral;
     border-radius:999999px;
   }
 
-  .img{
-    position: relative;
-    /* bottom: 54rem;
-    left: 31rem; */
-  }
+img{
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
 
   .image{
     height: 50rem;
@@ -102,7 +105,7 @@ ul li a:hover{
 }
 
 footer ul li{
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 
@@ -162,8 +165,13 @@ footer ul li{
   color:#d051c1;
  }
 
-.html {width: 90%; background-color:#f44336 ; height:30px;}
-.css {width: 80%; background-color: #2196F3; height:30px; }
+.html {width: 88%; background-color:#f44336 ; height:30px;}
+.css {width: 88%; background-color: #2196F3; height:30px; }
 .js {width: 10%; background-color:goldenrod; height: 30px; }
-.bs {width: 60%; background-color:rgb(65, 8, 65); height: 30px; position: relative;}
+.bs {width: 92%; background-color:rgb(65, 8, 65); height: 30px; position: relative;}
+
+.navbar-brand{
+  text-decoration: none;
+}
+.
  
